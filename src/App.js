@@ -1,5 +1,6 @@
 import './App.css';
 import { IdCard } from './components/IdCard';
+import Random  from './components/random';
 
 function App() {
   return (
@@ -34,6 +35,10 @@ function App() {
             />
           }
         />
+      </div>
+      <div>
+          <h1> hiii</h1>
+        <Random min={10} max={2000} />
       </div>
     </div>
   );
